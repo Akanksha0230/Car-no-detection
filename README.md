@@ -1,6 +1,6 @@
 # Car Number Plate Detection Project
 
-This Streamlit-based web app allows users to search for products directly from the Myntra website and view detailed information in a tabular format. It also provides a powerful analysis tool to compare products based on price, ratings, and reviews using interactive charts and plots.
+This Python-based project uses OpenCV to detect car number plates in real time through your system's camera. The application automatically identifies license plates using the Haar Cascade Classifier and allows you to capture and save detected plate images with a single key press.
 
 ### **Features:**
 
