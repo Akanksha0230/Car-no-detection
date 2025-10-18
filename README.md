@@ -49,4 +49,7 @@ Before you begin, ensure you have the following installed:
 
 ### **Usage:**
 
-Once the application is running, open your web browser and navigate to `http://127.0.0.1:8000/` to access the app interface. You can start searching the products, and the app will respond based on your input. It gives the anaylis of the products and shows the results in the form of interactive charts and plots. We can easily know the price, rating and reviews of products in short time. 
+Once the application is running, The webcam will open, and the live detection window will appear. Hold a vehicle number plate in front of the camera — it will be detected automatically. Press ‘s’ to save the detected plate image. 
+              
+
+The system uses Haar Cascade Classifier, a pre-trained XML model, to detect rectangular regions resembling number plates. Each detected region is extracted as an ROI (Region of Interest) and displayed separately. The application continuously scans the live feed until manually stopped.
