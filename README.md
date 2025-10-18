@@ -4,14 +4,14 @@ This Python-based project uses OpenCV to detect car number plates in real time t
 
 ### **Features:**
 
-- # Live Product Search on Myntra: 
-Users can enter a product name, and the app fetches real-time results directly from the Myntra website, displaying product details in a clean tabular format.
-- # Detailed Product Table View:
- Extracted data includes product name, price, rating, and review count—presented neatly in an interactive table within the Streamlit interface.
-- # One-Click Comparative Analysis:
-A dedicated “Generate Analysis” page allows users to visualize comparisons of selected products based on price, ratings, and review counts.
-- # Insightful Visual Charts:
-Automatically generated bar charts and plots provide a clear visual understanding of product comparisons to aid better decision-making.
+- # Real-Time Number Plate Detection:
+When you run the program, it activates your webcam and starts detecting number plates in live video feed using the Haar Cascade model.
+- # Automatic Plate Highlighting:
+Detected plates are highlighted with a green rectangle, and the label “Number Plate” appears above the detection box for clear visibility.
+- # Live Camera Interface:
+The camera feed is displayed on screen, and any detected number plate is shown in a separate preview window (Region of Interest - ROI).
+- # Save Detected Plates:
+Press the ‘s’ key to save the detected number plate image. The image will be stored automatically inside the plates/ directory with a unique name.
 
 ### **Prerequisites:**
 
