@@ -1,4 +1,3 @@
-
 # Car Number Plate Detection Project
 
 This Python-based project uses OpenCV to detect car number plates in real time through your system's camera. The application automatically identifies license plates using the Haar Cascade Classifier and allows you to capture and save detected plate images with a single key press.
