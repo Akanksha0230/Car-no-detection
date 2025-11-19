@@ -57,4 +57,3 @@ The system uses Haar Cascade Classifier, a pre-trained XML model, to detect rect
 
 
 
-
