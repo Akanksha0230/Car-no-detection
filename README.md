@@ -53,3 +53,4 @@ Once the application is running, The webcam will open, and the live detection wi
               
 
 The system uses Haar Cascade Classifier, a pre-trained XML model, to detect rectangular regions resembling number plates. Each detected region is extracted as an ROI (Region of Interest) and displayed separately. The application continuously scans the live feed until manually stopped.
+
